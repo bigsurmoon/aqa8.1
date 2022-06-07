@@ -1,14 +1,11 @@
 package ru.netology.data;
 
-import com.github.javafaker.Faker;
-import com.mysql.cj.x.protobuf.MysqlxCrud;
 import lombok.SneakyThrows;
 import lombok.Value;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import java.sql.DriverManager;
-import java.sql.SQLException;
 
 public class DataHelper {
 

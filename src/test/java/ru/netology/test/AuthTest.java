@@ -29,7 +29,6 @@ public class AuthTest {
 
     @AfterEach
     void shouldCleanData() {
-        DataHelper dataHelper = new DataHelper();
-        dataHelper.clearData();
+        DataHelper.clearData();
     }
 }
